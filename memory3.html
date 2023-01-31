@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO MEMORY</title>
+    <link rel="stylesheet" href="memory3.css">
+</head>
+<body>
+
+
+<h2 class="heading">YOUR SCORE: <span id="swiggy"></span></h2>
+<h2 id="score">0</h2>
+<h2 id="time-left">60</h2>
+
+<div class="grid">
+
+<div class="cell" id="1"></div>
+<div class="cell" id="2"></div>
+<div class="cell" id="3"></div>
+<div class="cell" id="4"></div>
+<div class="cell" id="5"></div>
+<div class="cell" id="6"></div>
+<div class="cell" id="7"></div>
+<div class="cell" id="8"></div>
+<div class="cell" id="9"></div>
+
+</div>
+
+
+<script>
+
+const vikram = document.querySelector('#swiggy');
+
+const homi = document.querySelector('#score');
+
+const kalam = document.querySelector('time-left');
+
+const ashish = document.querySelectorAll('.cell');
+
+let result = 0;
+let dhoni = 5;
+
+
+
+function prukalpa() {
+
+
+    ashish.forEach(cell =>{
+    
+     cell.classList.remove('mole')
+
+
+
+
+
+    })
+
+
+let nova = ashish[Math.floor(Math.random()*9)]
+
+nova.classList.add('mole');
+
+  kurean = nova.id
+
+//console.log(nova);
+
+    
+}
+
+//prukalpa()
+
+
+// for motion 
+
+function sunder() {
+
+let raman = null;
+
+raman = setInterval(prukalpa, 500)
+
+    
+}
+ sunder();
+
+function zeoradha() {
+
+
+ashish.forEach(cell =>{
+
+    cell.addEventListener('click', function() {
+
+        //console.log(cell);
+
+
+        if (cell.id == kurean) {
+            result++;
+            vikram.innerHTML = result;
+
+            
+
+            
+            
+        }
+
+       // if (kalam.innerHTML == 0) {
+          //  alert('Game over');
+            
+        //}
+
+
+
+
+        
+    })
+
+
+
+
+
+})
+
+
+
+
+    
+}
+
+zeoradha()
+ 
+
+
+</script>
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+    }
+
+    body{
+
+    background-color: black;
+
+
+
+    }
+
+    #swiggy{
+    color: white;
+    font-size: 60px;
+
+
+    }
+
+    .heading{
+    color: white;
+    font-size: 70px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+    }
+    
+    
+    .grid{
+    
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 50px;
+    
+    }
+    
+    .cell{
+        height: 100px;
+        width: 100px;
+        border: 2px solid red;
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+    
+    }
+    
+    
+    body{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        }
+    
+        .mole{
+       background-color: blue;
+    
+    
+        }
+    
+    
+    
+        .sakshi{
+        background-color: black;
+    
+        }
+    
+        .sham{
+         background-color: aqua;
+    
+        }
+    
+        .mous{
+    
+       background-color: brown;
+    
+        }
+    
+    
+        .progm{
+    
+         background-color: blueviolet;
+    
+        }
+    
+    
+    
+        .zerodha{
+    
+        background-color: chartreuse;
+    
+        }
+    
+    
+      .warikoo{
+       background-color: cornflowerblue;
+    
+      }
+    
+       .alpha{
+    
+        background-color: darkgoldenrod;
+       }
+    
+       .lisa{
+       background-color: deeppink;
+    
+    
+       }
+    
